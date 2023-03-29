@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  background-color: hsl(225, 100%, 94%);
+background-image: linear-gradient(to right, red, orange, yellow);
 }
 
 .order-summary {
@@ -43,6 +43,8 @@ body {
   margin-right: auto;
   background-color: whitesmoke;
   border-radius: 15px;
+  margin-bottom: 10px;
+  padding: 5px;
 }
 
 .music-icon {
@@ -87,6 +89,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .cancel-order {
