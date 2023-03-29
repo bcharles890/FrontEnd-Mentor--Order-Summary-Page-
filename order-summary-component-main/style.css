@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: hsl(225, 100%, 94%);
+}
+
+.order-summary {
+  width: 350px;
+  height: 530px;
+  border-radius: 15px;
+  margin-left: 40%;
+  margin-top: 5%;
+  text-align: center;
+  font-family: Red Hat Display;
+  background-color: white;
+}
+
+.img {
+  height: 160px;
+  width: 350px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.card {
+}
+
+.Order-summary-title {
+  font-weight: 900;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.billing-price {
+  display: flex;
+
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+.music-icon {
+  height: 50px;
+  width: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+
+  border-radius: 50%;
+}
+
+.annual-plan {
+  font-weight: 900;
+  padding-top: 1%;
+  margin-left: 20px;
+}
+
+.price {
+  font-weight: 500;
+  color: grey;
+  margin-top: 1%;
+  font-size: 14px;
+}
+
+.change {
+  font-weight: 700;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 10px;
+  color: darkmagenta;
+}
+
+.button {
+  color: white;
+  background-color: orangered;
+  border: solid orangered 2px;
+  border-radius: 10px;
+  height: 44px;
+  width: 290px;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.cancel-order {
+  text-decoration: none;
+  color: rgb(102, 101, 101);
+  font-weight: 700;
+  font-size: 14px;
+}
